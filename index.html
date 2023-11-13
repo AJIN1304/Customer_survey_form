@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <h1 style="text-align: center;">Customer Survey Form</h1>
+
+<div class="container" >
+    
+ <form class="box" name="myname" onsubmit="return validate()">
+  <table class="main" >
+    <tr>
+        <td>Name</td>
+        <td>Email</td>
+    </tr>
+
+    <tr>
+        <td id="uname"><input type="text"  required></td>
+        <td id="email"><input type="text"  required></td>
+    </tr>
+
+ </table>
+   
+ <div class="radio1">
+ <h3>Is this first time You are using our products & services?</h3>
+
+ <input type="radio" <span>Yes</span> 
+ <input type="radio" <span>No</span> 
+ </div>
+
+ <div class="radio2">
+    <h3>Would You suggestion to your friends and colleague? </h3>
+   
+    <input type="radio" <span>Yes</span> 
+    <input type="radio" <span>No</span> 
+   </div>
+
+   <div class="radio2">
+    <h3>How satisfied are you with our company overall? </h3>
+    <input type="radio" <span>Satisfied</span> 
+    <input type="radio" <span>Undecided</span>
+    <input type="radio" <span>Unsatisfied</span> 
+   </div>
+
+
+   <div class="feedback">
+
+    <h3>Do You have suggection to improve our service?</h3>
+
+    <textarea name="" id="area" cols="55" rows="8" ></textarea>
+
+   </div>
+
+   <div class="buttons" style="display: flex;gap: 10px;">
+
+    <input type="submit" value="SUBMIT" class="btn-s"> 
+    <input type="reset" value="RESET" class="btn-r">  
+
+   </div>
+   
+
+
+
+
+</form>
+ </div>
+
+ <footer>
+    <h3 style="text-align: center; color: white;">@ 2018 Customer Survey Form.All Rights Reserved | Design by <span style="color: blue;">W3Layouts.</span></h3>
+ </footer>
+
+
+
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
